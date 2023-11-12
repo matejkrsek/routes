@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+
+
+
+:root {
+  --primary: #dc4925;
+  --secondary: #2b3452;
+}
+
+.root-layout{
+  background-color: #2b3452;
+}
+
+.accordionHeader {
+  font-size: 20px; 
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: "Poppins";
+ 
+}
+
+* {
+  color: var(--primary);
+  margin: 0;
+}
+
+p {
+  margin: 20px 0;
+}
+button {
+  border: 3px solid var(--primary);
+  padding: 8px;
+  border-radius: 4px;
+  background: var(--secondary);
+  cursor: pointer;
+}
+
+/* navbar */
+header nav{
+  display: flex;
+  gap: 10px;
+  justify-content: end;
+  padding: 10px;
+  margin: 0 auto;
+  font-size: 20px;
+  font-weight: bold;
+  
+}
+
+header nav h1 {
+  margin-right: auto;
+  border-bottom: 3px solid var(--primary)
+}
+
+
+.shoppingListsHeader{
+  padding-left: 20px;
+  padding-bottom: 10px;
+  display: flex;
+  gap: 20px;
+}
+
+header nav a{
+text-decoration: none;
+padding: 6px;
+border-radius: 4px;
+background-color: var(--secondary);
+}
+
+header nav a.active {
+  background: var(--primary);
+  color:#2b3452;
+}
+
+/* page content */
+
+main {
+  color:#2b3452;
+  margin: 40px auto;
+}
+
+
+
+
+
